@@ -1,11 +1,14 @@
 html {
   font-size: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif; 
+}
+
+html{
   background-color: #8faad6;
-  
-  h1 {
-    font-size: 60px;
-    text-align: center;
-    /*font-family: "Borel"", serif;*/
-  }
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  /*font-family: "Borel"", serif;*/
 }
