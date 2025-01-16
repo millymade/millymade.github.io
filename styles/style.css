@@ -3,9 +3,9 @@ html {
   font-family: 'Open Sans', sans-serif; 
 }
 
-/*html {
-  background-color: #8faad6;
-}*/
+html {
+  background-image: url("../images/backround-flowers.jpg");
+}
 
 h1 {
   font-size: 60px;
