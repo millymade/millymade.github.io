@@ -1,5 +1,5 @@
 html {
-  font-size: 10px;
+  font-size: 12px;
   font-family: 'Open Sans', sans-serif; 
 }
 
@@ -9,5 +9,5 @@ html {
 
 h1 {
   font-size: 60px;
-  text-align: center;
+  font-family: 'Borel', serif;
 }
