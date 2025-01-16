@@ -17,4 +17,11 @@ h1 {
 h2 {
   font-size: 30px;
   font-family: 'Borel', serif;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif; 
+  text-align: center;
 }
