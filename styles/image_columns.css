@@ -16,12 +16,12 @@
     width: 8px;
     height: 8px;
     cursor: pointer;
-    background: #d0bf21;
+    background: #aaa;
     border-radius: 100%;
   }
   
   .thumbnails div.highlighted {
-    background-color: #3445b5;
+    background-color: #777;
   }
   
   .slides {
