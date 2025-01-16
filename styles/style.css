@@ -5,7 +5,8 @@ html {
 
 html {
   background-image: url("../images/background-flowers.jpg");
-  /*background-color: transparent;*/
+  background-color: transparent;
+  background-size: cover;
 }
 
 h1 {
