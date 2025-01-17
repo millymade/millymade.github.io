@@ -40,7 +40,7 @@ used inside a div*/
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0.5rem;
+  margin: auto;
 }
 
 /* responsive is to size images so they do not stretch and put a border around images
