@@ -4,6 +4,9 @@
     justify-content: center;
   }
   
+  /*thumbnail refers to the grey dots below the image gallery
+  that lets you pick the picture
+  first thumbnails moves the position of them wrt the container*/
   .thumbnails {
     position: absolute;
     bottom: 8px;
@@ -11,7 +14,7 @@
     flex-direction: row;
     gap: 6px;
   }
-  
+  /*this thumbnails sets the size and colors*/
   .thumbnails div {
     width: 8px;
     height: 8px;
@@ -28,20 +31,26 @@
     margin: 0 16px;
     display: grid;
     grid-auto-flow: column;
+    /*gap refers to the space between the images
+    in the gallery*/
     gap: 1rem;
+    /*the following width sets the container size
+    this width should match the img width below*/
     width: 540px;
-    padding: 0 0.25rem;
+    padding: 1rem;
     height: 500px;
     overflow-y: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
+    /*add background color here if you need to see the container*/
   }
   
   .slides > div {
-    scroll-snap-align: start;
+    scroll-snap-align: center;
   }
   
+  /*sets the width of the image used in the slides*/
   .slides img {
     width: 540px;
     object-fit: contain;
@@ -51,4 +60,4 @@
     display: none;
   }
 
-  /*gallery swipe function: https://labex.io/tutorials/css-image-gallery-with-horizontal-scroll-35210*/
+  /*gallery swipe function: https://labex.io/tutorials/css-image-gallery-with-horizontal-scroll-35210 */
