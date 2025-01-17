@@ -9,7 +9,7 @@
   first thumbnails moves the position of them wrt the container*/
   .thumbnails {
     position: absolute;
-    bottom: 8px;
+    bottom: -10px;
     display: flex;
     flex-direction: row;
     gap: 6px;
@@ -38,7 +38,7 @@
     this width should match the img width below*/
     width: 540px;
     padding: 1rem;
-    height: 700px;
+    height: 350px;
     overflow-y: auto;
     overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
