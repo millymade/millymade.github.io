@@ -44,6 +44,7 @@
     scroll-snap-type: x mandatory;
     scrollbar-width: none;
     /*add background color here if you need to see the container*/
+    background: #c43c35;
   }
   
   .slides > div {
