@@ -48,8 +48,8 @@ used inside a div*/
 /* responsive is to size images so they do not stretch and put a border around images
 used on landing page and bounds the clickable areas around image*/
 .responsive {
-  max-width: 50%; 
-  max-height: auto;
+  max-width: 500px; 
+  max-height: 100%;
   padding: 0.2rem;
   margin: 0.5rem;
   border: 2px solid #444
