@@ -37,10 +37,12 @@ ul {
 used on landing page to put bound and put clickable pictures in a row
 used inside a div*/
 .container {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2 200px);
+  grid-gap: 0.5em;
+  justify-items: center;
   justify-content: center;
-  margin: auto;
 }
 
 /* responsive is to size images so they do not stretch and put a border around images
